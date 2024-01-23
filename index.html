@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    <link rel="icon" href="https://media.licdn.com/dms/image/D4D12AQH1Il5IXizYUg/article-cover_image-shrink_720_1280/0/1662623734192?e=1709769600&v=beta&t=NPg3PXnEf2lcHJcCfI5j-J-ff79Ht4PK5yMJO1t7JaU">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;font-size: medium;
+            background-color: aliceblue;
+        }
+        header{
+            background-color: #395c60;
+            align-items: center;
+        }
+        .navitem {
+            display: inline;
+            padding: 130px;
+        }
+.navitem a{
+    text-decoration: none;
+    color: white
+}
+.registrationform{
+    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.directory{
+    text-align: center;
+}
+th,td{
+    border: 1px solid #9fb8bb;
+    padding: 8px;
+}
+.contactus{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white ; text-align: center;"> Welcome to your Employee Portal </h1>
+        <nav>
+       <ul>
+        <li class="navitem"><a href="employee-registration" target="_blank">Employee Registration </a></li>
+        <li class="navitem"><a href="directory" target="_blank">Directory </a></li>
+        <li class="navitem"><a href="contact-us" target="_blank">Contact us </a></li>
+       </ul>
+       <img src="https://indiaemployerforum.org/wp-content/uploads/2022/06/employee-centric-organisation-india-employer-forum.jpg" alt="" width="1150"height="500" >
+        </nav>
+        </header>
+        <section id="employee-registration" class="registrationform">
+            <h2>Employee Registration</h2>
+            <p>Fill the below form to register as <em>employee.</em></p>
+            <form>
+<label for="First name">First name :</label>
+<input type="text"placeholder="Enter the first name" id="First name" required><br><br>
+<label for="Last name">Last name : </label>
+<input type="text"placeholder="Enter the last name" id="last name"><br><br>
+<label for="password">Password : </label>
+<input type="password" placeholder="Enter your password"><br><br>
+<label for="Email"> Email address : </label>
+<input type="email" placeholder="Enter your email address" id="email"><br><br>
+<label for="Age">Enter Age : </label>
+<input type="number" placeholder="Enter your age" id="Age"><br><br>
+<label for="Role ">Select your Role : </label>
+<select id="Role" >
+    <option value="Marketing Department">Marketing Department</option>
+    <option value="Software Department">Software Department</option>
+    <option value="Consultant Department">Consultant Department</option>
+    <option value="Finacial Department">Finacial Department</option>
+    <option value="Sales Department">Sales Department </option>
+</select><br><br>
+<label for="joining date">Joining Date </label>
+<input type="date" id="joining date"><br><br>
+<input type="submit">
+
+</form>
+</section>
+
+    <section id="employee-directory" class="directory">
+<h2>Employee Directory</h2>
+<p>List of all registered employee</p>
+<table border="2px"  style="border: 2px solid black ">
+<tr>
+    <td>Employee Id</td>
+    <td>Name</td>
+    <td>Role</td>
+</tr>
+<tr>
+    <td>101</td>
+    <td>Soumya</td>
+    <td>Consultant</td>
+</tr>
+<tr>
+    <td>102</td>
+    <td>Himangi</td>
+    <td>Sales </td>
+</tr>
+<tr>
+    <td>103</td>
+    <td>Vishwadeep</td>
+    <td>Finance</td>
+</tr>
+<tr>
+    <td>104</td>
+    <td>Khawahish</td>
+    <td>Software</td>
+</tr>
+<tr>
+    <td>105</td>
+    <td>Kalpesh</td>
+    <td>Marketing</td>
+</tr>
+<tr>
+    <td>106</td>
+    <td>Mikku</td>
+    <td>Marketing</td>
+</tr>
+<tr>
+    <td>107</td>
+    <td>Harshit</td>
+    <td>Software</td>
+</tr>
+</table>
+
+    </section>
+    <section id="contact-us" class="contactus">
+        <h2>Contact us</h2>
+        <p>You can contact us at <b>company@official.com</b> or <b>9694806805 </b> or<b> visit us between 9AM-5PM</b> </p><br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.6860991767307!2d77.36284727542116!3d28.51909047572695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce63ce7fae835%3A0x5714a74a5abdf3e6!2sJaypee%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2sin!4v1704465275368!5m2!1sen!2sin" width="1150" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        &copy;2024 Company Name
+    </footer>
+</body>
+</html>
